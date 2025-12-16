@@ -3,6 +3,7 @@
 
 #include <iostream>
 using namespace std;
+int pole(Prostokąt p);
 
 
 //ZAD.1
@@ -26,7 +27,29 @@ int main()
 */
 
 //ZAD.2
+/*
+struct Prostokąt {
+    int a, b;
+};
 
+int pole(Prostokąt p) {
+    int wynik;
+    wynik = p.a * p.b;
+
+    return wynik;
+}
+
+int main() {
+    Prostokąt prostokat; 
+    prostokat.a = 4;
+    prostokat.b = 8;
+
+ 
+    cout << "Pole prostokąta wynosi: " << pole(prostokat) << endl;
+
+    return 0;
+}
+*/
 
 // Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
 // Debugowanie programu: F5 lub menu Debugowanie > Rozpocznij debugowanie
