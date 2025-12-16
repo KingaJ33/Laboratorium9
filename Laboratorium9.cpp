@@ -3,7 +3,7 @@
 
 #include <iostream>
 using namespace std;
-int pole(Prostokąt p);
+
 
 
 //ZAD.1
@@ -28,6 +28,8 @@ int main()
 
 //ZAD.2
 /*
+int pole(Prostokąt p);
+
 struct Prostokąt {
     int a, b;
 };
