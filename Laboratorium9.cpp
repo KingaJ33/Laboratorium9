@@ -2,11 +2,31 @@
 //
 
 #include <iostream>
+using namespace std;
+
+
+//ZAD.1
+/*
+struct Punkt {
+    int x, y;
+};
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Punkt pkt;
+
+    pkt.x = 2;
+    pkt.y = 5;
+
+    cout << "Punkt [" << pkt.x << "," << pkt.y << "]";
+
+
+    return 0;
 }
+*/
+
+//ZAD.2
+
 
 // Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
 // Debugowanie programu: F5 lub menu Debugowanie > Rozpocznij debugowanie
